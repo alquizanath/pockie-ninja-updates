@@ -1,12 +1,12 @@
 {
-  "version": "1.5.0-beta.8",
+  "version": "1.5.0-beta.9",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
-  "notes": [
-    "Fixed Tailed Beast scanning after a completed battle",
-    "Fixed TB7 not continuing to the next selected Tailed Beast",
-    "Improved timeout handling",
-    "Improved automation reliability when the game tab is inactive",
-    "Enhanced Demon Boss / Hunt Timed Boss"
-  ],
+"notes": [
+  "Improved Outdoor Demon Boss reliability.",
+  "Added safer recovery when Demon Proof Accept does not activate immediately.",
+  "Added a single controlled retry after verifying the UI is still stuck.",
+  "Improved handling for slower game/client responses without adding unnecessary delays.",
+  "No changes to the normal battle flow."
+],
   "publishedAt": "2026-08-25"
 }
