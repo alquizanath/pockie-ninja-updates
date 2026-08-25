@@ -1,8 +1,13 @@
 {
-  "version": "1.5.0-beta.12",
+  "version": "1.6.0-beta.2",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
-  "notes": [
-    "Fixed Clan Boss Demon Brute targeting on different game layouts."
-  ],
+ "notes": [
+  "Added Arena Automation with configurable opponent selection, auto refresh, promotion battles, and reward collection.",
+  "Improved Konoha Boutique startup detection and reliability.",
+  "Improved Sichibukai stability on slower devices and delayed game transitions.",
+  "Improved Ninja's Trial handling for slower UI transitions.",
+  "Fixed Arena activity logs displaying the incorrect source label.",
+  "General automation stability and recovery improvements."
+],
   "publishedAt": "2026-08-25"
 }
