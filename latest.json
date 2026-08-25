@@ -1,12 +1,9 @@
 {
-  "version": "1.5.0-beta.11",
+  "version": "1.5.0-beta.12",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
 "notes": [
-  "Fixed Valhalla recovery when the game returns an attacking-too-quickly cooldown.",
-  "Fixed Combat Results handling after a cooldown retry.",
-  "Fixed Valhalla getting stuck after returning to the mob/boss selection.",
-  "Improved post-battle UI recovery so the automation continues without manual cursor movement.",
-  "Preserved normal Valhalla automation speed when no cooldown or recovery is needed."
+ 
+    "Fixed Clan Boss Demon Brute targeting on different game layouts.",
 ],
   "publishedAt": "2026-08-25"
 }
