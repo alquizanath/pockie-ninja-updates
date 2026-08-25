@@ -1,0 +1,12 @@
+{
+  "version": "1.5.0-beta.7",
+  "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
+  "notes": [
+    "Fixed Tailed Beast scanning after a completed battle",
+    "Fixed TB7 not continuing to the next selected Tailed Beast",
+    "Improved timeout handling",
+    "Improved automation reliability when the game tab is inactive",
+    "Enhanced Demon Boss / Hunt Timed Boss"
+  ],
+  "publishedAt": "2026-08-25"
+}
