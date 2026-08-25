@@ -1,12 +1,13 @@
 {
-  "version": "1.5.0-beta.9",
+  "version": "1.5.0-beta.10",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
 "notes": [
-  "Improved Outdoor Demon Boss reliability.",
-  "Added safer recovery when Demon Proof Accept does not activate immediately.",
-  "Added a single controlled retry after verifying the UI is still stuck.",
-  "Improved handling for slower game/client responses without adding unnecessary delays.",
-  "No changes to the normal battle flow."
+  "Improved Clan Boss interaction reliability with safer state-gated retries.",
+  "Improved Slot Machine handling for must-wait and attacking-too-quickly states.",
+  "Improved Las Noches battle transition handling and retry safety.",
+  "Improved Outdoor Demon Boss and Demon Proof interaction reliability.",
+  "Reduced unnecessary repeated actions while preserving fast UI detection and normal automation speed.",
+  "Improved handling of delayed game and network responses across supported battle flows."
 ],
   "publishedAt": "2026-08-25"
 }
