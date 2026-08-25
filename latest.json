@@ -2,7 +2,7 @@
   "version": "1.6.0-beta.2",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
  "notes": [
-  "Added Arena Automation with configurable opponent selection, auto refresh, promotion battles, and reward collection.",
+  "Added Arena Automation as an experimental feature for testing. Feedback and bug reports are welcome.",
   "Improved Konoha Boutique startup detection and reliability.",
   "Improved Sichibukai stability on slower devices and delayed game transitions.",
   "Improved Ninja's Trial handling for slower UI transitions.",
