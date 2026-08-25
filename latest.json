@@ -1,13 +1,10 @@
 {
-  "version": "1.5.0-beta.10",
+  "version": "1.5.0-beta.11",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
 "notes": [
-  "Improved Clan Boss interaction reliability with safer state-gated retries.",
-  "Improved Slot Machine handling for must-wait and attacking-too-quickly states.",
-  "Improved Las Noches battle transition handling and retry safety.",
-  "Improved Outdoor Demon Boss and Demon Proof interaction reliability.",
-  "Reduced unnecessary repeated actions while preserving fast UI detection and normal automation speed.",
-  "Improved handling of delayed game and network responses across supported battle flows."
+  "Fixed Valhalla recovery when the game returns an attacking-too-quickly cooldown.",
+  "Added state-gated retry handling so Valhalla can continue without a manual mob click.",
+  "Preserved normal Valhalla automation speed when no cooldown is present."
 ],
   "publishedAt": "2026-08-25"
 }
