@@ -1,15 +1,10 @@
 {
-  "version": "1.6.0-beta.3",
+  "version": "1.6.0-beta.4",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
- "notes": [
-  "Added Arena Automation as an experimental feature for testing. Feedback and bug reports are welcome.",
-  "Improved Sichibukai stability on slower devices and delayed game transitions.",
-  "Improved Ninja's Trial handling for slower UI transitions.",
-  "Fixed Arena activity logs displaying the incorrect source label.",
-  "General automation stability and recovery improvements.",
-   "Improved Konoha Boutique configuration layout for better readability and usability.",
-"Added Konoha Boutique input limits: Multiplier up to 20 and Lines up to 25.",
-"Improved Konoha Boutique recovery after game disconnects and restarts."
-],
-  "publishedAt": "2026-08-25"
+  "notes": [
+    "Improved Konoha Boutique Bonus Chest recovery when the OK action is delayed or not registered.",
+    "Improved Konoha Boutique Double Chance recovery when Claim or confirmation actions are delayed or not registered.",
+    "Added safe, state-validated retries to prevent Konoha Boutique from getting stuck on slower devices or unstable connections."
+  ],
+  "publishedAt": "2026-08-27"
 }
