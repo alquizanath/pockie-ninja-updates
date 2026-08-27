@@ -1,11 +1,11 @@
 {
-  "version": "1.6.0-beta.5",
+  "version": "1.6.0-beta.6",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Improved Outdoor Demon Boss map navigation accuracy across Sakura Mainland.",
-    "Improved Timed Demon Boss detection with more resilient boss name matching.",
-    "Improved Timed Demon Boss scanning and recovery when NPCs load slowly after map travel.",
-    "Improved Outdoor Demon Boss stability on slower devices and unstable connections."
+    "Improved Arena battle-state handling to prevent opponent scanning while a fight is still in progress.",
+    "Improved Arena post-battle recovery and Combat Results handling.",
+    "Improved Arena promotion boss detection, auto-accept behavior, and resume-state recovery.",
+    "Added safer Arena interaction pacing to reduce rapid opponent selection and Battle clicks."
   ],
   "publishedAt": "2026-08-27"
 }
