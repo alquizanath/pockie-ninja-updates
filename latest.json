@@ -1,10 +1,11 @@
 {
-  "version": "1.6.0-beta.4",
+  "version": "1.6.0-beta.5",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Improved Konoha Boutique Bonus Chest recovery when the OK action is delayed or not registered.",
-    "Improved Konoha Boutique Double Chance recovery when Claim or confirmation actions are delayed or not registered.",
-    "Added safe, state-validated retries to prevent Konoha Boutique from getting stuck on slower devices or unstable connections."
+    "Improved Outdoor Demon Boss map navigation accuracy across Sakura Mainland.",
+    "Improved Timed Demon Boss detection with more resilient boss name matching.",
+    "Improved Timed Demon Boss scanning and recovery when NPCs load slowly after map travel.",
+    "Improved Outdoor Demon Boss stability on slower devices and unstable connections."
   ],
   "publishedAt": "2026-08-27"
 }
