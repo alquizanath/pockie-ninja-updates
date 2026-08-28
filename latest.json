@@ -1,12 +1,9 @@
 {
-  "version": "1.6.0-beta.7",
-  "publishedAt": "2026-08-28",
+  "version": "1.6.0-beta.8",
+  "publishedAt": "2026-08-29",
   "notes": [
-    "Fixed Demon Boss Set Count mode continuing beyond the configured number of fights when Auto-hunt Timed Bosses is enabled.",
-    "Improved Demon Boss fight limit handling across normal and timed boss encounters.",
-    "Improved Konoha Boutique Power Up strategies and reserve handling.",
-    "Improved Konoha Boutique Power Up state recovery to prevent unintended active multipliers.",
-    "Improved Clan Garden handling when there are not enough stones to refresh.",
-    "General automation stability and recovery improvements."
+    "Improved Konoha Boutique Double Chance round handling.",
+    "Improved Konoha Boutique click timing and confirmation flow.",
+    "Improved Konoha Boutique stability on slower connections and devices."
   ]
 }
