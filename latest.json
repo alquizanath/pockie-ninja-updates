@@ -1,11 +1,12 @@
 {
-  "version": "1.6.0-beta.6",
-  "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
+  "version": "1.6.0-beta.7",
+  "publishedAt": "2026-08-28",
   "notes": [
-    "Improved Arena battle-state handling to prevent opponent scanning while a fight is still in progress.",
-    "Improved Arena post-battle recovery and Combat Results handling.",
-    "Improved Arena promotion boss detection, auto-accept behavior, and resume-state recovery.",
-    "Added safer Arena interaction pacing to reduce rapid opponent selection and Battle clicks."
-  ],
-  "publishedAt": "2026-08-27"
+    "Fixed Demon Boss Set Count mode continuing beyond the configured number of fights when Auto-hunt Timed Bosses is enabled.",
+    "Improved Demon Boss fight limit handling across normal and timed boss encounters.",
+    "Improved Konoha Boutique Power Up strategies and reserve handling.",
+    "Improved Konoha Boutique Power Up state recovery to prevent unintended active multipliers.",
+    "Improved Clan Garden handling when there are not enough stones to refresh.",
+    "General automation stability and recovery improvements."
+  ]
 }
