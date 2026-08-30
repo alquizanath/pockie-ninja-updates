@@ -1,9 +1,10 @@
 {
-  "version": "1.6.0-beta.8",
-  "publishedAt": "2026-08-29",
+  "version": "1.6.0-beta.9",
+  "publishedAt": "2026-08-31",
   "notes": [
-    "Improved Konoha Boutique Double Chance round handling.",
-    "Improved Konoha Boutique click timing and confirmation flow.",
-    "Improved Konoha Boutique stability on slower connections and devices."
+    "Improved Outdoor Demon Boss automation, including Timed Boss priority, navigation, recovery, and normal boss resume handling.",
+    "Improved overall automation stability and session recovery.",
+    "Added additional internal reliability improvements.",
+    "This is the final planned build update. No further feature or maintenance updates are currently planned."
   ]
 }
