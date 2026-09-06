@@ -1,23 +1,47 @@
 {
   "version": "1.7.0-beta.1",
   "publishedAt": "2026-09-06",
-  "notes": {
-    "newFeatures": [
-      "Added Outfit Collection automation for scanning collection progress, acquiring eligible missing outfits, upgrading outfits, and submitting completed +2 outfits.",
-      "Added Auto Sell automation for configurable and automated inventory cleanup."
-    ],
-    "improvements": [
-      "Improved automation recovery and state handling across supported game activities.",
-      "Improved handling of login screens and server availability during automation recovery.",
-      "Improved world map navigation and destination detection.",
-      "Improved UI interaction handling to reduce rapid or repeated actions during navigation.",
-      "Improved reward handling by stopping earlier when matched priority rewards are detected.",
-      "Improved overall automation reliability during delayed or interrupted game interactions."
-    ],
-    "fixes": [
-      "Fixed Tailed Beast automation behavior when a defeated beast is removed from the map, allowing the automation to continue to the next valid target.",
-      "Fixed recovery cases where automation could remain stuck after game or connection state changes.",
-      "Fixed cases where repeated UI interactions could occur while navigation or another action was still in progress."
-    ]
-  }
+  "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
+  "notes": [
+    "Added Outfit Collection automation for scanning collection progress, acquiring eligible missing outfits, upgrading outfits, and submitting completed +2 outfits.",
+    "Added Auto Sell automation for configurable and automated Inventory cleanup.",
+    "Improved automation recovery and state handling across supported game activities.",
+    "Improved login, server availability, world map navigation, and UI interaction handling.",
+    "Improved reward handling by stopping earlier when matched priority rewards are detected.",
+    "Fixed Tailed Beast automation so defeated or removed beasts can be skipped and the automation can continue to the next valid target.",
+    "Fixed recovery cases that could leave automations stuck or cause repeated interactions after game or connection state changes."
+  ],
+  "sections": [
+    {
+      "title": "New Features",
+      "items": [
+        "Outfit Collection — Scan Collection progress, review a completion plan, acquire eligible missing outfits from selectable pots, upgrade outfits to +2, and submit completed outfits to Collection.",
+        "Auto Sell — Scan Inventory, search and group eligible items, configure keep counts, review the sell plan, and automatically process eligible item stacks."
+      ]
+    },
+    {
+      "title": "Improvements",
+      "items": [
+        "Improved automation recovery and state handling across supported game activities.",
+        "Improved server availability and login-screen handling during automation recovery.",
+        "Improved world map navigation and destination detection.",
+        "Improved UI interaction handling to reduce rapid or repeated actions during navigation.",
+        "Improved reward handling by stopping earlier when matched priority rewards are detected.",
+        "Improved slow-server handling across Collection navigation, Inventory transitions, pot selection, and synthesis.",
+        "Reduced unnecessary repeated Inventory and Collection scans by reusing verified scan results during execution.",
+        "Improved Outfit Collection with Low Purify Stone support, exact outfit variant matching, category-aware Collection routing, and synthesis retry recovery.",
+        "Improved Auto Sell with bound/unbound grouping, keep-count controls, split handling, and stack-aware execution.",
+        "Refined sidebar organization and icons for Inventory workflows and Clan.",
+        "Improved overall reliability during delayed or interrupted game interactions."
+      ]
+    },
+    {
+      "title": "Fixes",
+      "items": [
+        "Fixed Tailed Beast automation so defeated or removed beasts are skipped correctly and automation can continue to the next valid target.",
+        "Fixed recovery cases where automation could remain stuck after game or connection state changes.",
+        "Fixed cases where repeated UI interactions could occur while navigation or another action was still in progress."
+      ]
+    }
+  ]
 }
