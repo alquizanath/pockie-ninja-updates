@@ -1,36 +1,23 @@
 {
   "version": "1.7.0-beta.1",
   "publishedAt": "2026-09-06",
-  "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
-  "notes": [
-    "Added Outfit Collection automation with Collection and Inventory scanning, reviewed completion plans, selectable-pot acquisition, +2 synthesis, and verified Collection submission.",
-    "Added Auto Sell with full Inventory scanning, search, bound/unbound grouping, keep-count controls, review, split handling, and automated selling.",
-    "Added Low Purify Stone as an optional Outfit Collection upgrade material with reserve, run-limit, fallback, and 100% synthesis verification.",
-    "Added reliable outfit variant matching, Collection category routing, synthesis retry recovery, and stack-aware Auto Sell execution.",
-    "Improved scan reuse and slow-server handling across Collection, Inventory, pot selection, and synthesis workflows."
-  ],
-  "sections": [
-    {
-      "title": "New Features",
-      "items": [
-        "Added Outfit Collection automation with Inventory, Collection, and outfit-pot scanning.",
-        "Added reviewed completion plans that show which missing outfits can be collected, upgraded, acquired from pots, or require manual synthesis.",
-        "Added selectable-pot acquisition with exact pot and outfit verification before use.",
-        "Added automatic +2 outfit synthesis with recovery when catalysts are consumed during an unsuccessful upgrade attempt.",
-        "Added verified Collection submission with category-aware routing, including outfits whose Collection category differs from their pot or visual rarity.",
-        "Added exact outfit variant matching for outfits that share underlying avatar assets or have different visual variants.",
-        "Added Low Purify Stone as an optional upgrade material with reserve, run-limit, fallback, and 100% synthesis verification.",
-        "Added Auto Sell with full Inventory scanning across tabs and stacks.",
-        "Added Auto Sell search, bound/unbound grouping, keep-count controls, review, split handling, stack relocation, and automated selling."
-      ]
-    },
-    {
-      "title": "Improvements",
-      "items": [
-        "Reduced repeated Inventory and Collection scans by reusing verified scan results during execution.",
-        "Improved slow-server handling across Collection navigation, Inventory transitions, pot selection, and synthesis.",
-        "Refined sidebar organization and icons for Inventory workflows and Clan."
-      ]
-    }
-  ]
+  "notes": {
+    "newFeatures": [
+      "Added Outfit Collection automation for scanning collection progress, acquiring eligible missing outfits, upgrading outfits, and submitting completed +2 outfits.",
+      "Added Auto Sell automation for configurable and automated inventory cleanup."
+    ],
+    "improvements": [
+      "Improved automation recovery and state handling across supported game activities.",
+      "Improved handling of login screens and server availability during automation recovery.",
+      "Improved world map navigation and destination detection.",
+      "Improved UI interaction handling to reduce rapid or repeated actions during navigation.",
+      "Improved reward handling by stopping earlier when matched priority rewards are detected.",
+      "Improved overall automation reliability during delayed or interrupted game interactions."
+    ],
+    "fixes": [
+      "Fixed Tailed Beast automation behavior when a defeated beast is removed from the map, allowing the automation to continue to the next valid target.",
+      "Fixed recovery cases where automation could remain stuck after game or connection state changes.",
+      "Fixed cases where repeated UI interactions could occur while navigation or another action was still in progress."
+    ]
+  }
 }
