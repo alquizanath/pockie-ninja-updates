@@ -1,46 +1,36 @@
 {
-  "version": "1.7.0-beta.2",
+  "version": "1.7.0-beta.3",
   "publishedAt": "2026-09-07",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Added Outfit Collection automation for scanning collection progress, acquiring eligible missing outfits, upgrading outfits, and submitting completed +2 outfits.",
-    "Added Auto Sell automation for configurable and automated Inventory cleanup.",
-    "Improved automation recovery and state handling across supported game activities.",
-    "Improved login, server availability, world map navigation, and UI interaction handling.",
-    "Improved reward handling by stopping earlier when matched priority rewards are detected.",
-    "Fixed Tailed Beast automation so defeated or removed beasts can be skipped and the automation can continue to the next valid target.",
-    "Fixed recovery cases that could leave automations stuck or cause repeated interactions after game or connection state changes."
+    "Improved Outfit Collection planning, pot selection, and collection progress handling.",
+    "Improved Outfit Collection usability with clearer pot permissions, planning statuses, and refresh behavior.",
+    "Improved repeated Outfit Collection scans by reusing verified pot catalog data during the current session.",
+    "Fixed Outfit Collection plan synchronization after completed submissions and configuration changes.",
+    "Improved automation recovery and state handling across supported game activities."
   ],
   "sections": [
     {
-      "title": "New Features",
-      "items": [
-        "Outfit Collection — Scan Collection progress, review a completion plan, acquire eligible missing outfits from selectable pots, upgrade outfits to +2, and submit completed outfits to Collection.",
-        "Auto Sell — Scan Inventory, search and group eligible items, configure keep counts, review the sell plan, and automatically process eligible item stacks."
-      ]
-    },
-    {
       "title": "Improvements",
       "items": [
-        "Improved automation recovery and state handling across supported game activities.",
-        "Improved server availability and login-screen handling during automation recovery.",
-        "Improved world map navigation and destination detection.",
-        "Improved UI interaction handling to reduce rapid or repeated actions during navigation.",
-        "Improved reward handling by stopping earlier when matched priority rewards are detected.",
+        "Improved Outfit Collection with clearer Collection Categories and selectable pot permissions.",
+        "Added a dedicated pot manager showing which available outfit pots are Allowed or Protected from automation use.",
+        "Improved Collection Plan summaries with clearer completion, waiting, manual synthesis, catalyst, and unavailable statuses.",
+        "Collection category and pot-selection changes now update the plan without requiring another full game scan.",
+        "Improved repeated game-state refreshes by reusing verified pot catalog data during the current session.",
         "Improved slow-server handling across Collection navigation, Inventory transitions, pot selection, and synthesis.",
-        "Reduced unnecessary repeated Inventory and Collection scans by reusing verified scan results during execution.",
         "Improved Outfit Collection with Low Purify Stone support, exact outfit variant matching, category-aware Collection routing, and synthesis retry recovery.",
-        "Improved Auto Sell with bound/unbound grouping, keep-count controls, split handling, and stack-aware execution.",
-        "Refined sidebar organization and icons for Inventory workflows and Clan.",
-        "Improved overall reliability during delayed or interrupted game interactions."
+        "Improved overall automation recovery and state handling across supported game activities."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Fixed Tailed Beast automation so defeated or removed beasts are skipped correctly and automation can continue to the next valid target.",
-        "Fixed recovery cases where automation could remain stuck after game or connection state changes.",
-        "Fixed cases where repeated UI interactions could occur while navigation or another action was still in progress."
+        "Fixed Outfit Collection plan counters becoming out of sync after an outfit was successfully completed and submitted.",
+        "Fixed pot-selection changes causing reviewed plans and executable actions to become inconsistent.",
+        "Fixed unchecked outfit pots being presented with misleading availability terminology.",
+        "Fixed cases where Outfit Collection could require unnecessary repeated scans after planning-only configuration changes.",
+        "Fixed recovery cases where automation could remain stuck or repeat interactions after delayed or interrupted game states."
       ]
     }
   ]
