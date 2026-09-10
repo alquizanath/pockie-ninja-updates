@@ -1,45 +1,27 @@
 {
-  "version": "1.7.0-beta.4",
-  "publishedAt": "2026-09-09",
+  "version": "1.7.0-beta.5",
+  "publishedAt": "2026-09-10",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Added browser and game-page recovery for supported automations when the game tab crashes or becomes temporarily unavailable.",
-    "Standardized browser startup so new sessions open the main Pockie Ninja website while existing Pockie Ninja sessions keep their current server.",
-    "Improved Outfit Collection planning, pot selection, collection progress handling, and repeated scan performance.",
-    "Improved automation recovery and state handling across supported game activities."
+    "Fixed Ninja's Trial opening another automation browser after Stop and Start.",
+    "Improved shared browser reuse so supported automations keep using the existing Pockie Ninja browser session.",
+    "Preserved browser and game-page recovery introduced in beta.4."
   ],
   "sections": [
     {
-      "title": "New Features",
+      "title": "Fixes",
       "items": [
-        "Browser / Game Page Recovery — Supported automations can detect an interrupted or crashed game page, pause safely, restore the page, and continue after the game becomes available again.",
-        "Shared Browser Session Handling — Automations now reuse an existing Pockie Ninja browser session and preserve its current server instead of forcing a specific server URL."
+        "Fixed Ninja's Trial using stale saved browser/CDP settings that could cause a new browser to open after Stop → Start.",
+        "Ninja's Trial now always reuses the Hub's shared browser session on port 9222.",
+        "Fixed older Ninja's Trial runtime configurations overriding the shared browser URL and endpoint settings."
       ]
     },
     {
       "title": "Improvements",
       "items": [
-        "Standardized new browser sessions to open the main Pockie Ninja website instead of a hard-coded game server.",
-        "Improved recovery behavior for renderer and game-page interruptions while keeping existing login, disconnect, maintenance, and server-availability handling.",
-        "Improved recovery across Arena, Outfit Collection, Auto Sell, Clan Boss, Clan Garden, Konoha Boutique, Las Noches, Ninja Trial, Sichibukai, Slot Machine, Tailed Beast, Valhalla, and other supported workflows.",
-        "Improved Outfit Collection with clearer Collection Categories and pot permissions.",
-        "Improved Outfit Collection planning statuses and pot-selection usability.",
-        "Collection category and pot-selection changes can update the plan without requiring another full game-state scan.",
-        "Improved repeated Outfit Collection scans by reusing verified pot catalog data during the current session.",
-        "Improved slow-server handling across Collection navigation, Inventory transitions, pot selection, and synthesis.",
-        "Improved overall automation recovery and state handling during delayed or interrupted game interactions."
-      ]
-    },
-    {
-      "title": "Fixes",
-      "items": [
-        "Fixed inconsistent browser startup URLs across automations when no debugging browser session is available.",
-        "Fixed supported automations unnecessarily losing their active workflow when the game page can be safely restored after a renderer or tab failure.",
-        "Fixed Outfit Collection plan counters becoming out of sync after an outfit was successfully completed and submitted.",
-        "Fixed pot-selection changes causing reviewed plans and executable actions to become inconsistent.",
-        "Fixed misleading Outfit Collection availability states when compatible pots are present but protected from automation use.",
-        "Fixed unnecessary repeated Outfit Collection scans after planning-only configuration changes.",
-        "Fixed recovery cases where automation could remain stuck or repeat interactions after delayed or interrupted game states."
+        "Kept the shared browser launch guard that prevents duplicate managed browser launches while an existing browser is starting.",
+        "Existing Pockie Ninja tabs keep their current server and session when an automation is restarted.",
+        "New browser sessions continue to open https://pockieninja.online/ by default."
       ]
     }
   ]
