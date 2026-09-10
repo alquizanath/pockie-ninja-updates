@@ -1,26 +1,32 @@
 {
-  "version": "1.7.0-beta.5",
+  "version": "1.7.0-beta.6",
   "publishedAt": "2026-09-10",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Fixed Ninja's Trial opening another automation browser after Stop and Start.",
-    "Improved shared browser reuse so supported automations keep using the existing Pockie Ninja browser session.",
-    "Preserved browser and game-page recovery introduced in beta.4."
+    "Improved Outfit Collection so a verified replacement-catalyst shortage skips only the affected outfit instead of stopping the full reviewed run.",
+    "Fixed automations choosing the Pockie Ninja landing/server tab instead of the active logged-in game tab when multiple Pockie Ninja tabs are open.",
+    "Fixed Sichibukai Load/Start so it attaches to the live game tab and opens the required setup from there.",
+    "Fixed Ninja's Trial duplicate-browser behavior after Stop and Start.",
+    "Improved shared browser reuse and game-page recovery across supported automations."
   ],
   "sections": [
     {
       "title": "Fixes",
       "items": [
-        "Fixed Ninja's Trial using stale saved browser/CDP settings that could cause a new browser to open after Stop → Start.",
-        "Ninja's Trial now always reuses the Hub's shared browser session on port 9222.",
-        "Fixed older Ninja's Trial runtime configurations overriding the shared browser URL and endpoint settings."
+        "Fixed Outfit Collection stopping the full run after a failed synthesis when the Main Item survived but replacement catalysts were no longer available; the item is now returned safely to Inventory and the target is marked Waiting for Catalyst.",
+        "Fixed Sichibukai Load attaching to the wrong Pockie Ninja tab when both the landing/server page and a logged-in game tab are open.",
+        "Fixed supported automations using the first matching Pockie Ninja URL instead of identifying the active in-game page.",
+        "Fixed Ninja's Trial using stale saved browser/CDP settings that could cause another browser to open after Stop → Start.",
+        "Fixed shared browser cleanup/restart cases that could interfere with browser reuse."
       ]
     },
     {
       "title": "Improvements",
       "items": [
-        "Kept the shared browser launch guard that prevents duplicate managed browser launches while an existing browser is starting.",
-        "Existing Pockie Ninja tabs keep their current server and session when an automation is restarted.",
+        "Outfit Collection now continues with the next completable target after safely skipping an outfit that cannot refill verified synthesis catalyst slots.",
+        "Added shared live game-tab selection using visible in-game UI markers and the active tab state.",
+        "Applied the shared tab-selection behavior to Sichibukai, Ninja Trial, Konoha Boutique, Slot Machine, Tailed Beast, Valhalla, Las Noches, Arena, Clan Boss/Garden, Outfit Collection, Auto Sell, and Outdoor Exploration.",
+        "Existing Pockie Ninja game tabs keep their current server and session when automations are restarted.",
         "New browser sessions continue to open https://pockieninja.online/ by default."
       ]
     }
