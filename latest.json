@@ -1,30 +1,42 @@
 {
-  "version": "1.7.0-beta.7",
-  "publishedAt": "2026-09-10",
+  "version": "1.8.0-beta.1",
+  "publishedAt": "2026-09-11",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Added Outfit Collection Synthesis preflight recovery before fresh scans and reviewed-plan execution.",
-    "Fixed Synthesis Result and loaded-item recovery when another Inventory bag has free space.",
-    "Improved safety for stale, partial, manual, and interrupted Synthesis states without automatically pressing Create.",
-    "Retains the browser/session, live game-tab, activity-start, and catalyst-shortage recovery fixes from beta.6."
+    "Added Pet Tracing automation with automatic board solving, special-tool planning, reward handling, and daily progression.",
+    "Redesigned the Automation Hub navigation with grouped Daily, Inventory, and Events sections plus a Dashboard.",
+    "Improved Auto Sell outfit enhancement detection, reviewed-stack resolution, and Sell confirmation validation.",
+    "Improved Activity Log readability and removed duplicate log entries."
   ],
   "sections": [
     {
-      "title": "Fixes",
+      "title": "New Features",
       "items": [
-        "Fixed Outfit Collection reporting that a Synthesis Result could not be returned when the active Inventory bag was full but another bag still had an empty slot.",
-        "Fixed Inventory-tab changes clearing a selected Synthesis item during result recovery by selecting the destination bag before moving the item.",
-        "Fixed stale Synthesis contents being left unchecked when starting a fresh Collection scan or executing a reviewed plan."
+        "Added Pet Tracing automation with automatic 3x3 board scanning and route solving.",
+        "Added automatic selection of the best starting card for connected arrow sequences.",
+        "Added Pet Tracing support for Chain, Rotate/Reposition, and Reveal tools with resource-aware planning and animation/state synchronization.",
+        "Added automatic New Card lifecycle handling, Holding reward detection, Into Pack support, and daily progression until Remaining reaches 0.",
+        "Added Pet Tracing Start/Stop controls and live automation status.",
+        "Added a Dashboard and reorganized the sidebar into Daily, Inventory, and Events sections."
       ]
     },
     {
       "title": "Improvements",
       "items": [
-        "Outfit Collection now performs a Synthesis preflight before Check My Collection / Refresh Game State and before Start or Continue execution.",
-        "Preflight safely recovers items from Result, Catalyst 2, Catalyst 1, and Main Item back to verified free Inventory slots across bags I-X.",
-        "Handles leftover +0, +1, +2, +3 or higher outfits, Low Purify Stones, non-outfit items, and partial catalyst setups without automatically triggering synthesis.",
-        "If Synthesis state cannot be cleared safely or all Inventory bags are full, automation pauses instead of consuming or moving an uncertain item.",
-        "Existing beta.6 browser reuse, live game-tab selection, Las Noches/Sichibukai initial-state handling, and catalyst-shortage skip recovery are preserved."
+        "Improved Auto Sell outfit enhancement detection for +0, +1, and higher enhancement levels.",
+        "Improved Auto Sell reviewed-stack resolution before destructive actions.",
+        "Improved Auto Sell Sell-confirmation validation while preserving strict quantity, item identity, and bound/unbound checks.",
+        "Simplified the Automation Hub interface by removing unnecessary descriptions and helper text.",
+        "Improved Activity Log layout, indentation, wrapping, and source formatting."
+      ]
+    },
+    {
+      "title": "Fixes",
+      "items": [
+        "Fixed Auto Sell confirmations when the game omits the enhancement suffix for +0 and enhanced outfits.",
+        "Fixed reviewed Auto Sell stacks being incorrectly reported as changed or moved before selling.",
+        "Fixed Auto Sell context-menu targeting and confirmation handling for reviewed outfit stacks.",
+        "Fixed duplicate Activity Log entries caused by overlapping logging paths."
       ]
     }
   ]
