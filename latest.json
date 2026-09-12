@@ -1,27 +1,23 @@
 {
-  "version": "1.8.0-beta.3",
+  "version": "1.8.0-beta.4",
   "publishedAt": "2026-09-12",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Improved Pet Tracing special-tool planning for random Rotate outcomes and live board replanning.",
-    "Fixed Pet Tracing committing to shorter routes before beneficial special-tool actions were exhausted.",
-    "Added safe fallback planning when Rotate resources are exhausted or a random Rotate does not produce a useful direction."
+    "Improved Windows form-control rendering so dropdown, select, and input values remain readable on the dark interface.",
+    "Fixed native white backgrounds obscuring text in Windows Electron controls while preserving normal macOS rendering."
   ],
   "sections": [
     {
       "title": "Improvements",
       "items": [
-        "Pet Tracing now rescans and replans after every Chain, Rotate, or Reveal action before selecting a starting card.",
-        "Random Rotate attempts are evaluated one at a time using the possible route outcomes instead of preplanning multiple rotations.",
-        "Special-tool combinations are recalculated from the live board after each state change."
+        "Standardized dark styling across select, text, number, email, search, readonly, and disabled controls.",
+        "Improved Windows dropdown option and autofill styling for better consistency with the Automation Hub theme."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Fixed Rotate planning that assumed a predictable clockwise or counterclockwise direction.",
-        "Fixed shorter-route commits when a beneficial special-tool action was still available.",
-        "Fixed plans depending on an unavailable future rotation after the Rotate counter reaches zero."
+        "Fixed white native backgrounds covering or reducing readability of values in dropdowns and input controls on Windows."
       ]
     }
   ]
