@@ -1,23 +1,23 @@
 {
-  "version": "1.8.0-beta.4",
+  "version": "1.8.0-beta.5",
   "publishedAt": "2026-09-12",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Improved Windows form-control rendering so dropdown, select, and input values remain readable on the dark interface.",
-    "Fixed native white backgrounds obscuring text in Windows Electron controls while preserving normal macOS rendering."
+    "Scoped the Windows dark form-control fix to the Automation Hub so game-page controls keep their original rendering.",
+    "Kept dropdown, select, and input values readable on Windows without globally changing Pockie Ninja form controls."
   ],
   "sections": [
     {
       "title": "Improvements",
       "items": [
-        "Standardized dark styling across select, text, number, email, search, readonly, and disabled controls.",
-        "Improved Windows dropdown option and autofill styling for better consistency with the Automation Hub theme."
+        "Scoped dark select/input/textarea styling to the Automation Hub application shell instead of applying it globally.",
+        "Preserved the Windows form-control readability fix while keeping native game-page controls isolated."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Fixed white native backgrounds covering or reducing readability of values in dropdowns and input controls on Windows."
+        "Fixed Automation Hub form-control styling leaking into the Pockie Ninja game page and altering native dropdown rendering."
       ]
     }
   ]
