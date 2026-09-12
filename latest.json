@@ -1,42 +1,27 @@
 {
-  "version": "1.8.0-beta.2",
-  "publishedAt": "2026-09-11",
+  "version": "1.8.0-beta.3",
+  "publishedAt": "2026-09-12",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Added Pet Tracing automation with automatic board solving, special-tool planning, reward handling, and daily progression.",
-    "Redesigned the Automation Hub navigation with grouped Daily, Inventory, and Events sections plus a Dashboard.",
-    "Improved Auto Sell outfit enhancement detection, reviewed-stack resolution, and Sell confirmation validation.",
-    "Improved Activity Log readability and removed duplicate log entries."
+    "Improved Pet Tracing special-tool planning for random Rotate outcomes and live board replanning.",
+    "Fixed Pet Tracing committing to shorter routes before beneficial special-tool actions were exhausted.",
+    "Added safe fallback planning when Rotate resources are exhausted or a random Rotate does not produce a useful direction."
   ],
   "sections": [
     {
-      "title": "New Features",
-      "items": [
-        "Added Pet Tracing automation with automatic 3x3 board scanning and route solving.",
-        "Added automatic selection of the best starting card for connected arrow sequences.",
-        "Added Pet Tracing support for Chain, Rotate/Reposition, and Reveal tools with resource-aware planning and animation/state synchronization.",
-        "Added automatic New Card lifecycle handling, Holding reward detection, Into Pack support, and daily progression until Remaining reaches 0.",
-        "Added Pet Tracing Start/Stop controls and live automation status.",
-        "Added a Dashboard and reorganized the sidebar into Daily, Inventory, and Events sections."
-      ]
-    },
-    {
       "title": "Improvements",
       "items": [
-        "Improved Auto Sell outfit enhancement detection for +0, +1, and higher enhancement levels.",
-        "Improved Auto Sell reviewed-stack resolution before destructive actions.",
-        "Improved Auto Sell Sell-confirmation validation while preserving strict quantity, item identity, and bound/unbound checks.",
-        "Simplified the Automation Hub interface by removing unnecessary descriptions and helper text.",
-        "Improved Activity Log layout, indentation, wrapping, and source formatting."
+        "Pet Tracing now rescans and replans after every Chain, Rotate, or Reveal action before selecting a starting card.",
+        "Random Rotate attempts are evaluated one at a time using the possible route outcomes instead of preplanning multiple rotations.",
+        "Special-tool combinations are recalculated from the live board after each state change."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Fixed Auto Sell confirmations when the game omits the enhancement suffix for +0 and enhanced outfits.",
-        "Fixed reviewed Auto Sell stacks being incorrectly reported as changed or moved before selling.",
-        "Fixed Auto Sell context-menu targeting and confirmation handling for reviewed outfit stacks.",
-        "Fixed duplicate Activity Log entries caused by overlapping logging paths."
+        "Fixed Rotate planning that assumed a predictable clockwise or counterclockwise direction.",
+        "Fixed shorter-route commits when a beneficial special-tool action was still available.",
+        "Fixed plans depending on an unavailable future rotation after the Rotate counter reaches zero."
       ]
     }
   ]
