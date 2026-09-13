@@ -1,23 +1,26 @@
 {
-  "version": "1.8.0-beta.5",
-  "publishedAt": "2026-09-12",
+  "version": "1.8.0-beta.6",
+  "publishedAt": "2026-09-13",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [
-    "Scoped the Windows dark form-control fix to the Automation Hub so game-page controls keep their original rendering.",
-    "Kept dropdown, select, and input values readable on Windows without globally changing Pockie Ninja form controls."
+    "Improved Outdoor Demon Boss first-start map travel recovery for saved sessions.",
+    "Fixed Tailed Beast Lava Stone state handling across repeated fight iterations.",
+    "Centralized Pockie Ninja tab detection so automations consistently reuse the existing game tab on port 9222."
   ],
   "sections": [
     {
       "title": "Improvements",
       "items": [
-        "Scoped dark select/input/textarea styling to the Automation Hub application shell instead of applying it globally.",
-        "Preserved the Windows form-control readability fix while keeping native game-page controls isolated."
+        "Extended Outdoor Exploration map-arrival polling and added a final state-driven grace verification for slower first-load travel.",
+        "Standardized Pockie Ninja hostname/page detection through the shared game-page helper across automation and browser-management paths."
       ]
     },
     {
       "title": "Fixes",
       "items": [
-        "Fixed Automation Hub form-control styling leaking into the Pockie Ninja game page and altering native dropdown rendering."
+        "Fixed saved Outdoor Demon Boss sessions sometimes reporting travel failure on the first Start even though the game was still completing the map transition.",
+        "Fixed Outdoor Demon Boss falsely reporting that no Pockie Ninja tab existed on Chrome remote-debugging port 9222 when a valid game tab was already open.",
+        "Fixed Tailed Beast Lava Stone being toggled off or failing to be re-enabled on later fight iterations when the game recreated/reset the checkbox."
       ]
     }
   ]
