@@ -1,5 +1,5 @@
 {
-  "version": "1.8.0-beta.8",
+  "version": "1.8.0-beta.9",
   "publishedAt": "2026-09-27",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
@@ -18,9 +18,10 @@
   },
   {
     "title": "Improvements",
-    "items": [
-      "Improved Timed Demon Boss routing and map-transition handling for more reliable boss travel."
-    ]
+     "items": [
+    "Improved Timed Demon Boss routing and map-transition handling for more reliable boss travel.",
+    "Improved Outdoor Demon Boss automation stability during extended runs and map transitions."
+  ]
   },
   {
     "title": "Fixes",
