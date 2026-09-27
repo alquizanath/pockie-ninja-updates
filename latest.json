@@ -1,27 +1,32 @@
 {
-  "version": "1.8.0-beta.6",
-  "publishedAt": "2026-09-13",
+  "version": "1.8.0-beta.8",
+  "publishedAt": "2026-09-27",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
-  "notes": [
-    "Improved Outdoor Demon Boss first-start map travel recovery for saved sessions.",
-    "Fixed Tailed Beast Lava Stone state handling across repeated fight iterations.",
-    "Centralized Pockie Ninja tab detection so automations consistently reuse the existing game tab on port 9222."
-  ],
-  "sections": [
-    {
-      "title": "Improvements",
-      "items": [
-        "Extended Outdoor Exploration map-arrival polling and added a final state-driven grace verification for slower first-load travel.",
-        "Standardized Pockie Ninja hostname/page detection through the shared game-page helper across automation and browser-management paths."
-      ]
-    },
-    {
-      "title": "Fixes",
-      "items": [
-        "Fixed saved Outdoor Demon Boss sessions sometimes reporting travel failure on the first Start even though the game was still completing the map transition.",
-        "Fixed Outdoor Demon Boss falsely reporting that no Pockie Ninja tab existed on Chrome remote-debugging port 9222 when a valid game tab was already open.",
-        "Fixed Tailed Beast Lava Stone being toggled off or failing to be re-enabled on later fight iterations when the game recreated/reset the checkbox."
-      ]
-    }
-  ]
+  "notes": [],
+"sections": [
+  {
+    "title": "New Features",
+    "items": [
+      "Added Auto EXP Boost to Outdoor Demon Boss with configurable EXP buffs.",
+      "Added automatic EXP Mark, Seal, Star, and Dust synthesis with dependency handling.",
+      "Added Fresh Beer support for Auto EXP Boost.",
+      "Added automatic Timed Demon Boss hunting with scheduled boss detection and routing.",
+      "Added automatic EXP preparation before boss-map travel.",
+      "Added Auto Repair and Auto Heal during Village recovery.",
+      "Added automatic return from Timed Demon Bosses to the saved Normal Demon Boss route."
+    ]
+  },
+  {
+    "title": "Improvements",
+    "items": [
+      "Improved Timed Demon Boss routing and map-transition handling for more reliable boss travel."
+    ]
+  },
+  {
+    "title": "Fixes",
+    "items": [
+      "Fixed Timed Demon Boss routing issues that could prevent the automation from reaching or correctly interacting with the target boss."
+    ]
+  }
+]
 }
