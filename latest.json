@@ -1,33 +1,14 @@
 {
-  "version": "1.8.0-beta.9",
-  "publishedAt": "2026-09-27",
+  "version": "1.8.0-beta.10",
+  "publishedAt": "2026-09-28",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
-"sections": [
-  {
-    "title": "New Features",
-    "items": [
-      "Added Auto EXP Boost to Outdoor Demon Boss with configurable EXP buffs.",
-      "Added automatic EXP Mark, Seal, Star, and Dust synthesis with dependency handling.",
-      "Added Fresh Beer support for Auto EXP Boost.",
-      "Added automatic Timed Demon Boss hunting with scheduled boss detection and routing.",
-      "Added automatic EXP preparation before boss-map travel.",
-      "Added Auto Repair and Auto Heal during Village recovery.",
-      "Added automatic return from Timed Demon Bosses to the saved Normal Demon Boss route."
-    ]
-  },
-  {
-    "title": "Improvements",
-     "items": [
-    "Improved Timed Demon Boss routing and map-transition handling for more reliable boss travel.",
-    "Improved Outdoor Demon Boss automation stability during extended runs and map transitions."
+  "sections": [
+    {
+      "title": "Improvements",
+      "items": [
+        "Added separate Copper, Feather, and Gauze Forge Material targets to Sichibukai Reward Priority."
+      ]
+    }
   ]
-  },
-  {
-    "title": "Fixes",
-    "items": [
-      "Fixed Timed Demon Boss routing issues that could prevent the automation from reaching or correctly interacting with the target boss."
-    ]
-  }
-]
 }
