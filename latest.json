@@ -1,13 +1,25 @@
+
 {
-  "version": "1.8.0-beta.10",
-  "publishedAt": "2026-09-28",
-  "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
+  "version": "1.8.0-beta.12",
+  "publishedAt": "2026-10-25",
+  "downloadUrl": "https://drive.google.com/drive/folders/10iNcX-Uh99wMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
   "sections": [
     {
       "title": "Improvements",
       "items": [
-        "Added separate Copper, Feather, and Gauze Forge Material targets to Sichibukai Reward Priority."
+        "Improved automation startup speed and browser connection handling.",
+        "Improved Tailed Beast Start, Stop, and maintenance flow.",
+        "Improved Card Synthesis detection and Auto All handling.",
+        "Improved license verification and app responsiveness."
+      ]
+    },
+    {
+      "title": "Fixes",
+      "items": [
+        "Fixed overlapping Tailed Beast Start and maintenance operations.",
+        "Fixed Card Synthesis incorrectly counting recipe slots as available cards.",
+        "Improved handling of synthesis states with insufficient cards."
       ]
     }
   ]
