@@ -1,26 +1,17 @@
 
 {
-  "version": "1.8.0-beta.12",
-  "publishedAt": "2026-10-25",
+  "version": "1.8.0-beta.13",
+  "publishedAt": "2026-10-27",
   "downloadUrl": "https://drive.google.com/drive/folders/10iNcX-Uh99wMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
   "sections": [
     {
-      "title": "Improvements",
+      "title": "New Features",
       "items": [
-        "Improved automation startup speed and browser connection handling.",
-        "Improved Tailed Beast Start, Stop, and maintenance flow.",
-        "Improved Card Synthesis detection and Auto All handling.",
-        "Improved license verification and app responsiveness."
+        "Added Game Preferences with global browser selection and installed-browser validation.",
+        "Added Main and S01 game server selection for automation launches."
       ]
     },
-    {
-      "title": "Fixes",
-      "items": [
-        "Fixed overlapping Tailed Beast Start and maintenance operations.",
-        "Fixed Card Synthesis incorrectly counting recipe slots as available cards.",
-        "Improved handling of synthesis states with insufficient cards."
-      ]
-    }
+ 
   ]
 }
