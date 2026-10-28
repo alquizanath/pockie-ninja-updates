@@ -1,15 +1,15 @@
 
 {
-  "version": "1.8.0-beta.13",
-  "publishedAt": "2026-10-27",
+  "version": "1.8.0-beta.14",
+  "publishedAt": "2026-10-28",
   "downloadUrl": "https://drive.google.com/file/d/1heYrs4de8q9F82K_iChZ95mEpglUyQWR/view?usp=sharing",
   "notes": [],
   "sections": [
     {
       "title": "New Features",
       "items": [
-        "Added Game Preferences with global browser selection and installed-browser validation.",
-        "Added Main and S01 game server selection for automation launches."
+    "Added Game Session dashboard status with browser and server details.",
+        "Added Open Game controls to launch the dedicated game browser without starting automation."
       ]
     }
  
