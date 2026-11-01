@@ -1,17 +1,16 @@
-
 {
-  "version": "1.8.0-beta.14",
-  "publishedAt": "2026-10-28",
+  "version": "1.8.0-beta.15",
+  "publishedAt": "2026-11-01",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
   "sections": [
     {
-      "title": "New Features",
+      "title": "Improvements",
       "items": [
-    "Added Game Session dashboard status with browser and server details.",
-        "Added Open Game controls to launch the dedicated game browser without starting automation."
+        "Improved Valhalla building selection across all ten levels using image-based identification.",
+        "Added responsive, per-building click targeting with hit-testing and Difficulty Choice verification.",
+        "Improved dedicated browser session reconnection and profile ownership safeguards."
       ]
     }
- 
   ]
 }
