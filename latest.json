@@ -1,7 +1,7 @@
 {
-  "version": "1.8.0-beta.15",
-  "publishedAt": "2026-11-01",
-  "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
+  "version": "1.8.0-beta.16",
+  "publishedAt": "2026-11-04",
+  "downloadUrl": "https://drive.google.com/drive/folders/10iNcX-Uh99wMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
   "sections": [
     {
@@ -9,7 +9,10 @@
       "items": [
         "Improved Valhalla building selection across all ten levels using image-based identification.",
         "Added responsive, per-building click targeting with hit-testing and Difficulty Choice verification.",
-        "Improved dedicated browser session reconnection and profile ownership safeguards."
+        "Improved dedicated browser session reconnection and profile ownership safeguards.",
+        "Strengthened sign-in security with protected OAuth polling, one-time login result handling, and session safeguards.",
+        "Improved Tail Beast event waiting, commander dialogue preparation, and attack responsiveness.",
+        "Applied Arena automation fixes and reliability improvements."
       ]
     }
   ]
