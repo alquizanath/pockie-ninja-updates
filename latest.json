@@ -1,18 +1,21 @@
 {
-  "version": "1.8.0-beta.16",
-  "publishedAt": "2026-11-04",
-  "downloadUrl": "https://drive.google.com/drive/folders/10iNcX-Uh99wMpD7xkaSE8NBZwosI7h2C?usp=sharing",
+  "version": "1.8.0-beta.17",
+  "publishedAt": "2026-11-07",
+  "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
   "sections": [
     {
       "title": "Improvements",
       "items": [
-        "Improved Valhalla building selection across all ten levels using image-based identification.",
-        "Added responsive, per-building click targeting with hit-testing and Difficulty Choice verification.",
-        "Improved dedicated browser session reconnection and profile ownership safeguards.",
-        "Strengthened sign-in security with protected OAuth polling, one-time login result handling, and session safeguards.",
-        "Improved Tail Beast event waiting, commander dialogue preparation, and attack responsiveness.",
-        "Applied Arena automation fixes and reliability improvements."
+        "Redesigned Arena opponent protection settings with clearer loss limits and explanations.",
+        "Improved Arena stop-status messaging when the total loss limit is reached.",
+        "Improved Tailed Beast commander dialogue startup with bounded verification and retry."
+      ]
+    },
+    {
+      "title": "Bug Fixes",
+      "items": [
+        "Added cooldown handling for the Tailed Beast “You are attacking too quickly” warning to prevent rejected attacks from stalling automation."
       ]
     }
   ]
