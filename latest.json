@@ -1,21 +1,15 @@
 {
-  "version": "1.8.0-beta.17",
-  "publishedAt": "2026-11-07",
+  "version": "1.8.0-beta.18",
+  "publishedAt": "2026-11-08",
   "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
   "sections": [
     {
-      "title": "Improvements",
-      "items": [
-        "Redesigned Arena opponent protection settings with clearer loss limits and explanations.",
-        "Improved Arena stop-status messaging when the total loss limit is reached.",
-        "Improved Tailed Beast commander dialogue startup with bounded verification and retry."
-      ]
-    },
-    {
       "title": "Bug Fixes",
       "items": [
-        "Added cooldown handling for the Tailed Beast “You are attacking too quickly” warning to prevent rejected attacks from stalling automation."
+        "Updated Tailed Beast post-maintenance status handling to avoid leaving Start disabled because of stale UI state.",
+        "Improved Valhalla Combat Results detection and closure to reduce stalls between dungeon fights.",
+        "Improved Valhalla dungeon map selection by matching the requested level instead of relying on a fixed list position."
       ]
     }
   ]
