@@ -1,25 +1,16 @@
+
 {
-  "version": "1.8.0-beta.19",
-  "publishedAt": "2026-11-08",
-  "downloadUrl": "https://drive.google.com/file/d/1u3feL6-gQlSKlRqmZGKkLh_KjdWcLDyK/view?usp=sharing",
+  "version": "1.8.0-beta.20",
+  "publishedAt": "2026-11-12",
+  "downloadUrl": "https://drive.google.com/drive/folders/1OiNcX-Uh99vMpD7xkaSE8NBZwosI7h2C?usp=sharing",
   "notes": [],
   "sections": [
-     {
+    {
       "title": "Improvements",
       "items": [
-        "Slot Machine now runs configured inventory maintenance and Team Stone Heal/Repair before its first Challenge.",
-        "Slot Machine performs a one-time configured maintenance pass after the controlled character successfully leaves the party due to insufficient VP."
-      ]
-    },
-    {
-      "title": "Bug Fixes",
-      "items": [
-        "Updated Tailed Beast post-maintenance status handling to avoid leaving Start disabled because of stale UI state.",
-        "Improved Valhalla Combat Results detection and closure to reduce stalls between dungeon fights.",
-        "Improved Valhalla dungeon map selection by matching the requested level instead of relying on a fixed list position.",
-                "Outdoor Exploration Scan Map now supports Stop during refresh and bounds panel-opening retries.",
-        "Outdoor Exploration refresh status is reconciled after cancellation and duplicate refresh requests are rejected."
-
+        "Improved Valhalla automation performance and resource management.",
+        "Optimized Tailed Beast automation for better stability.",
+        "Enhanced automation lifecycle handling to reduce unnecessary resource usage."
       ]
     }
   ]
