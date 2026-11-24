@@ -1,21 +1,22 @@
-
 {
-  "version": "1.8.0-beta.24",
+  "version": "1.8.0-beta.25",
   "publishedAt": "2026-11-24",
-  "downloadUrl": "https://drive.google.com/drive/folders/1KuWXC_k4gn9SL1BW4_2LViCrNIJ_-PMq?usp=sharing",
+  "downloadUrl": "https://github.com/alquizanath/pockie-ninja-updates/releases/download/v1.8.0-beta.25/Pockie-Ninja-1.8.0-beta.25-win-x64.exe",
   "notes": [
-    "Expanded Auto Finish Battle support to Outdoor Demon Boss, Arena, Tail Beast, Shichibukai, and Ninja Trial.",
-    "Added individual Auto Finish Battle settings for supported game modes.",
-    "Improved battle completion automation using the game's Finish button."
+    "Added Windows verified update downloads and installation."
   ],
   "sections": [
     {
       "title": "Features and Improvements",
       "items": [
-        "Expanded Auto Finish Battle support to Outdoor Demon Boss, Arena, Tail Beast, Shichibukai, and Ninja Trial.",
-        "Added individual Auto Finish Battle settings for supported game modes.",
-        "Improved battle completion automation using the game's Finish button."
+        "Added Windows verified update downloads and installation."
       ]
     }
-  ]
+  ],
+  "platform": "win32",
+  "arch": "x64",
+  "size": 112823189,
+  "sha512": "e63f569c88eb16830203b3243fd56d08962d8a9bded8399034af38435ff47debfe1611759ba086843dc06e081e0545762d65fc5d5bcebd58a35e6d5acbe517df",
+  "payload": "eyJ2ZXJzaW9uIjoiMS44LjAtYmV0YS4yNSIsInB1Ymxpc2hlZEF0IjoiMjAyNi0xMS0yNCIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL2FscXVpemFuYXRoL3BvY2tpZS1uaW5qYS11cGRhdGVzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjguMC1iZXRhLjI1L1BvY2tpZS1OaW5qYS0xLjguMC1iZXRhLjI1LXdpbi14NjQuZXhlIiwibm90ZXMiOlsiQWRkZWQgV2luZG93cyB2ZXJpZmllZCB1cGRhdGUgZG93bmxvYWRzIGFuZCBpbnN0YWxsYXRpb24uIl0sInNlY3Rpb25zIjpbeyJ0aXRsZSI6IkZlYXR1cmVzIGFuZCBJbXByb3ZlbWVudHMiLCJpdGVtcyI6WyJBZGRlZCBXaW5kb3dzIHZlcmlmaWVkIHVwZGF0ZSBkb3dubG9hZHMgYW5kIGluc3RhbGxhdGlvbi4iXX1dLCJwbGF0Zm9ybSI6IndpbjMyIiwiYXJjaCI6Ing2NCIsInNpemUiOjExMjgyMzE4OSwic2hhNTEyIjoiZTYzZjU2OWM4OGViMTY4MzAyMDNiMzI0M2ZkNTZkMDg5NjJkOGE5YmRlZDgzOTkwMzRhZjM4NDM1ZmY0N2RlYmZlMTYxMTc1OWJhMDg2ODQzZGMwNmUwODFlMDU0NTc2MmQ2NWZjNWQ1YmNlYmQ1OGEzNWU2ZDVhY2JlNTE3ZGYifQ==",
+  "signature": "d4fLSskj51RS3Nuo/YbjWswbnUwYwnefSrCBhcbmw2iYoMAN9Ga2jWYRpK0tfXfCafyQ2hwMZK1i3b9qVJttDQ=="
 }
