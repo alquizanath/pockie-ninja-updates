@@ -1,24 +1,24 @@
 {
-  "version": "1.8.0-beta.27",
+  "version": "1.8.0-beta.28",
   "publishedAt": "2026-11-24",
   "downloadUrl": "https://drive.google.com/drive/folders/1KuWXC_k4gn9SL1BW4_2LViCrNIJ_-PMq?usp=sharing",
   "notes": [
-    "Added live Windows update download progress and verification status.",
-    "Preserved manual update compatibility for older clients."
+    "Fixed license access refresh after manual verification of an active license.",
+    "Preserved secure Windows updates and legacy manual download compatibility."
   ],
   "sections": [
     {
-      "title": "Features and Improvements",
+      "title": "Fixes and Improvements",
       "items": [
-        "Added live Windows update download progress and verification status.",
-        "Preserved manual update compatibility for older clients."
+        "Fixed license access refresh after manual verification of an active license.",
+        "Preserved secure Windows updates and legacy manual download compatibility."
       ]
     }
   ],
   "platform": "win32",
   "arch": "x64",
-  "size": 112823561,
-  "sha512": "78ed054ed43c3d886c4fc3e603b218067bac4aeb1e78ef7ead132754c96817ae4a09df7ae47fb09e70b5f707873e97f8cb4da1cac770a4e905923202cbbee119",
-  "payload": "eyJ2ZXJzaW9uIjoiMS44LjAtYmV0YS4yNyIsInB1Ymxpc2hlZEF0IjoiMjAyNi0xMS0yNCIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL2FscXVpemFuYXRoL3BvY2tpZS1uaW5qYS11cGRhdGVzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjguMC1iZXRhLjI3L1BvY2tpZS1OaW5qYS0xLjguMC1iZXRhLjI3LXdpbi14NjQuZXhlIiwibm90ZXMiOlsiQWRkZWQgbGl2ZSBXaW5kb3dzIHVwZGF0ZSBkb3dubG9hZCBwcm9ncmVzcyBhbmQgdmVyaWZpY2F0aW9uIHN0YXR1cy4iLCJQcmVzZXJ2ZWQgbWFudWFsIHVwZGF0ZSBjb21wYXRpYmlsaXR5IGZvciBvbGRlciBjbGllbnRzLiJdLCJzZWN0aW9ucyI6W3sidGl0bGUiOiJGZWF0dXJlcyBhbmQgSW1wcm92ZW1lbnRzIiwiaXRlbXMiOlsiQWRkZWQgbGl2ZSBXaW5kb3dzIHVwZGF0ZSBkb3dubG9hZCBwcm9ncmVzcyBhbmQgdmVyaWZpY2F0aW9uIHN0YXR1cy4iLCJQcmVzZXJ2ZWQgbWFudWFsIHVwZGF0ZSBjb21wYXRpYmlsaXR5IGZvciBvbGRlciBjbGllbnRzLiJdfV0sInBsYXRmb3JtIjoid2luMzIiLCJhcmNoIjoieDY0Iiwic2l6ZSI6MTEyODIzNTYxLCJzaGE1MTIiOiI3OGVkMDU0ZWQ0M2MzZDg4NmM0ZmMzZTYwM2IyMTgwNjdiYWM0YWViMWU3OGVmN2VhZDEzMjc1NGM5NjgxN2FlNGEwOWRmN2FlNDdmYjA5ZTcwYjVmNzA3ODczZTk3ZjhjYjRkYTFjYWM3NzBhNGU5MDU5MjMyMDJjYmJlZTExOSJ9",
-  "signature": "KmDYlBqnT+HOW30Qn6x4hkZtYoH1uBeTr/sZhtL52robSDXbdc2ky2UEnogX5+qGGbFvXsaty0guYfvxkNHpCg=="
+  "size": 112823754,
+  "sha512": "122c41d40cae81b61011be6158b47f230552fa9dbe95212e6efafc63db9788eadee6135fc074e8448c7f1c98382dd3a94f9cf1cdd3ab920db9a94e99e2779844",
+  "payload": "eyJ2ZXJzaW9uIjoiMS44LjAtYmV0YS4yOCIsInB1Ymxpc2hlZEF0IjoiMjAyNi0xMS0yNCIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL2FscXVpemFuYXRoL3BvY2tpZS1uaW5qYS11cGRhdGVzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjguMC1iZXRhLjI4L1BvY2tpZS1OaW5qYS0xLjguMC1iZXRhLjI4LXdpbi14NjQuZXhlIiwibm90ZXMiOlsiRml4ZWQgbGljZW5zZSBhY2Nlc3MgcmVmcmVzaCBhZnRlciBtYW51YWwgdmVyaWZpY2F0aW9uIG9mIGFuIGFjdGl2ZSBsaWNlbnNlLiIsIlByZXNlcnZlZCBzZWN1cmUgV2luZG93cyB1cGRhdGVzIGFuZCBsZWdhY3kgbWFudWFsIGRvd25sb2FkIGNvbXBhdGliaWxpdHkuIl0sInNlY3Rpb25zIjpbeyJ0aXRsZSI6IkZpeGVzIGFuZCBJbXByb3ZlbWVudHMiLCJpdGVtcyI6WyJGaXhlZCBsaWNlbnNlIGFjY2VzcyByZWZyZXNoIGFmdGVyIG1hbnVhbCB2ZXJpZmljYXRpb24gb2YgYW4gYWN0aXZlIGxpY2Vuc2UuIiwiUHJlc2VydmVkIHNlY3VyZSBXaW5kb3dzIHVwZGF0ZXMgYW5kIGxlZ2FjeSBtYW51YWwgZG93bmxvYWQgY29tcGF0aWJpbGl0eS4iXX1dLCJwbGF0Zm9ybSI6IndpbjMyIiwiYXJjaCI6Ing2NCIsInNpemUiOjExMjgyMzc1NCwic2hhNTEyIjoiMTIyYzQxZDQwY2FlODFiNjEwMTFiZTYxNThiNDdmMjMwNTUyZmE5ZGJlOTUyMTJlNmVmYWZjNjNkYjk3ODhlYWRlZTYxMzVmYzA3NGU4NDQ4YzdmMWM5ODM4MmRkM2E5NGY5Y2YxY2RkM2FiOTIwZGI5YTk0ZTk5ZTI3Nzk4NDQifQ==",
+  "signature": "DCV8hzA8nJ2+rZbJHJaZ4ckpfxvmmT49Avr/3OGNYOHDg/rEShNfhdRO+4ceq6sOXerhyUrU3y2VoMxWYhXJBA=="
 }
