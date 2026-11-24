@@ -1,22 +1,24 @@
 {
-  "version": "1.8.0-beta.25",
+  "version": "1.8.0-beta.26",
   "publishedAt": "2026-11-24",
-  "downloadUrl": "https://github.com/alquizanath/pockie-ninja-updates/releases/download/v1.8.0-beta.25/Pockie-Ninja-1.8.0-beta.25-win-x64.exe",
+  "downloadUrl": "https://github.com/alquizanath/pockie-ninja-updates/releases/download/v1.8.0-beta.26/Pockie-Ninja-1.8.0-beta.26-win-x64.exe",
   "notes": [
-    "Added Windows verified update downloads and installation."
+    "Prepared a validation release for Windows automatic updates."
   ],
   "sections": [
     {
       "title": "Features and Improvements",
       "items": [
-        "Added Windows verified update downloads and installation."
+        "Prepared a validation release for Windows automatic updates.",
+        "Retained cryptographic update signature and installer integrity verification.",
+        "No changes to existing automation features."
       ]
     }
   ],
   "platform": "win32",
   "arch": "x64",
-  "size": 112823189,
-  "sha512": "e63f569c88eb16830203b3243fd56d08962d8a9bded8399034af38435ff47debfe1611759ba086843dc06e081e0545762d65fc5d5bcebd58a35e6d5acbe517df",
-  "payload": "eyJ2ZXJzaW9uIjoiMS44LjAtYmV0YS4yNSIsInB1Ymxpc2hlZEF0IjoiMjAyNi0xMS0yNCIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL2FscXVpemFuYXRoL3BvY2tpZS1uaW5qYS11cGRhdGVzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjguMC1iZXRhLjI1L1BvY2tpZS1OaW5qYS0xLjguMC1iZXRhLjI1LXdpbi14NjQuZXhlIiwibm90ZXMiOlsiQWRkZWQgV2luZG93cyB2ZXJpZmllZCB1cGRhdGUgZG93bmxvYWRzIGFuZCBpbnN0YWxsYXRpb24uIl0sInNlY3Rpb25zIjpbeyJ0aXRsZSI6IkZlYXR1cmVzIGFuZCBJbXByb3ZlbWVudHMiLCJpdGVtcyI6WyJBZGRlZCBXaW5kb3dzIHZlcmlmaWVkIHVwZGF0ZSBkb3dubG9hZHMgYW5kIGluc3RhbGxhdGlvbi4iXX1dLCJwbGF0Zm9ybSI6IndpbjMyIiwiYXJjaCI6Ing2NCIsInNpemUiOjExMjgyMzE4OSwic2hhNTEyIjoiZTYzZjU2OWM4OGViMTY4MzAyMDNiMzI0M2ZkNTZkMDg5NjJkOGE5YmRlZDgzOTkwMzRhZjM4NDM1ZmY0N2RlYmZlMTYxMTc1OWJhMDg2ODQzZGMwNmUwODFlMDU0NTc2MmQ2NWZjNWQ1YmNlYmQ1OGEzNWU2ZDVhY2JlNTE3ZGYifQ==",
-  "signature": "d4fLSskj51RS3Nuo/YbjWswbnUwYwnefSrCBhcbmw2iYoMAN9Ga2jWYRpK0tfXfCafyQ2hwMZK1i3b9qVJttDQ=="
+  "size": 112823210,
+  "sha512": "92fec4005fc92c0d7614d13e2a197953b92cb0db160347631b470859190464afbd7c153a89f60dd4e23031adeae8872a143d295cb8629ac64b98e4f87d674414",
+  "payload": "eyJ2ZXJzaW9uIjoiMS44LjAtYmV0YS4yNiIsInB1Ymxpc2hlZEF0IjoiMjAyNi0xMS0yNCIsImRvd25sb2FkVXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL2FscXVpemFuYXRoL3BvY2tpZS1uaW5qYS11cGRhdGVzL3JlbGVhc2VzL2Rvd25sb2FkL3YxLjguMC1iZXRhLjI2L1BvY2tpZS1OaW5qYS0xLjguMC1iZXRhLjI2LXdpbi14NjQuZXhlIiwibm90ZXMiOlsiUHJlcGFyZWQgYSB2YWxpZGF0aW9uIHJlbGVhc2UgZm9yIFdpbmRvd3MgYXV0b21hdGljIHVwZGF0ZXMuIl0sInNlY3Rpb25zIjpbeyJ0aXRsZSI6IkZlYXR1cmVzIGFuZCBJbXByb3ZlbWVudHMiLCJpdGVtcyI6WyJQcmVwYXJlZCBhIHZhbGlkYXRpb24gcmVsZWFzZSBmb3IgV2luZG93cyBhdXRvbWF0aWMgdXBkYXRlcy4iLCJSZXRhaW5lZCBjcnlwdG9ncmFwaGljIHVwZGF0ZSBzaWduYXR1cmUgYW5kIGluc3RhbGxlciBpbnRlZ3JpdHkgdmVyaWZpY2F0aW9uLiIsIk5vIGNoYW5nZXMgdG8gZXhpc3RpbmcgYXV0b21hdGlvbiBmZWF0dXJlcy4iXX1dLCJwbGF0Zm9ybSI6IndpbjMyIiwiYXJjaCI6Ing2NCIsInNpemUiOjExMjgyMzIxMCwic2hhNTEyIjoiOTJmZWM0MDA1ZmM5MmMwZDc2MTRkMTNlMmExOTc5NTNiOTJjYjBkYjE2MDM0NzYzMWI0NzA4NTkxOTA0NjRhZmJkN2MxNTNhODlmNjBkZDRlMjMwMzFhZGVhZTg4NzJhMTQzZDI5NWNiODYyOWFjNjRiOThlNGY4N2Q2NzQ0MTQifQ==",
+  "signature": "zqX5HzrklJBzcZIq9+4UBO1BF/OJgHmLy/2vcXu2DJEaERjqMSivvCQzsgaWImk771ospdl34nq5mKWjA/bhAQ=="
 }
